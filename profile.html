@@ -1,78 +1,60 @@
-<!-- what is the version-->
 <!DOCTYPE html>
-<html>
-
-
-<!-- about this page-->
+<Html lang="en">
 <head>
-    <link rel="stylesheet" href ="index.css">
-    <style>
-        img {
-          float: top right ;
-        }
-      </style>
-    
+
+
+
+
 </head>
-
 <body>
-    <div style="background-color:lightcyan; width: 50%; height: 100px;">  
-     
-    <p>
-        <strong>EMAIL:</strong><a href="mailto:antonmuhilan97301@gmail.com">  muhilan9730106@gmail.com</a><br>
-        <strong>Phone Number:</strong><a href="tel:7598955470"> 7598955470</a><br>
-        <strong>Adress: </strong> D4,bsnl staff quaters,tailors road,chennai<br>
+    <img src="D:\learning\html css\resume\IMG-20220910-WA0063.jpg" alt="profilr picture" height="10%"width =10%>
+    <form>
+        <label for="yourname" >Name</label>
+        <input type="text" id="yourname" placeholder="enter name">
+        <br>
+        <br>
 
-    </p>
-</div>
-       
-     <img src="photo-1613323593608-abc90fec84ff.avif" alt="Girl in a jacket"> 
-     
+        <label for="mail">Email</label>
+        <input type ="email" id="mail" placeholder="enter email">
+        <br>
+        <br>
 
-   
-    
-    <div style="background-color:lightcoral; width: 50%; height: 550px; float:left;">  
-        
-    <h2 style="background-color:bisque">Achievements</h2><br>
-       <p>
-          onnum pdungala<br>
-          oru mayirum puduungala <br>
-          serious ahh vehhh <br>
-        </p>
-    <h2>QUALITIES </h2>
-    <ul>
-        <li>has an active lifestle with good communication skills and resource managemnet</li>
-        <li>efficient in work and time managemnet</li>
-        <li>active and proefficient in all extra academic activities</li>
-    </ul>
-    <h3>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <label for="" >Gender</label>
+        <input type="radio" name="gender " id="geder_male"><label for="geder_male">male</label>
+        <input type="radio"name="gender " id="geder_female" ><label for="geder_female">female</label>
+        <input type="radio"name="gender " id="not to say"><label for="not to say">not to say</label>
+        <br>
+        <br>
+        <label for="language known">language known</label>
+        <input type="checkbox" name="language known" id="tamil"><label for="tamil">tamil</label>
+        <input type="checkbox" name="language known" id="tel"><label for="tel">telugu</label>
+        <input type="checkbox" name="language known" id="hin"><label for="hindi">hindi</label>
+        <input type="checkbox" name="language known" id="'eng"><label for="eng">english</label>
+        <br>
+        <br>
 
-        <table border="3" width="50%" height="40%" linespace="100">
-            <tr>
-                <th>Course</th>
-                <th>College</th>
-                <th>Year</th>
-                <th>Score</th>
-            </tr>
-            <tr>
-                <td>Btech</td>
-                <td>Snu chennai</td>
-                <td>2025</td>
-                <td>7.8</td>
-            </tr>
-            <tr>
-                <td>Hsc</td>
-                <td rowspan ="2">Maharishi Vidya Mandir</td>
-                <td >2021 </td>
-                <td>90%</td>                
-            </tr>
-            <tr><td>Sslc</td>
-                <td>2019</td>
-                <td>93%</td>
-            </tr>
-        </table>
-    </h3>
-    </div>
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option value="us">us</option>
+            <option value="indian">indian</option>
+            <option value="japanese">japanese</option>
+            <option value="german">german</option>
+        </select>
+        <br>
+        <br>
 
-  
+        <label for ="description">tell about yourself</label>
+        <textarea name=""></textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <input type="button" value='Clear'>
+
+    </form>
 </body>
-</html>
+</Html>
+
