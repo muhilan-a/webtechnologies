@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+body{background-image: ulr("https://i.dailymail.co.uk/i/pix/2017/03/09/01/3E15AD0E00000578-4295170-The_scoreboard_is_barely_believable_at_the_end_of_an_incredible_-a-36_1489023487979.jpg"  );height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.container{position:fixed;left:30%;right:50%;height:500p;width :50%;margin:auto;margin-top: 200px;border: 10px solid    black;}
